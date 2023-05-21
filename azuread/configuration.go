@@ -81,6 +81,9 @@ func (p *azureFedAuthConfig) validateParameters(params map[string]string) error 
 	p.fedAuthLibrary = mssql.FedAuthLibraryADAL
 
 	p.applicationClientID, _ = params["applicationclientid"]
+	if p.applicationClientID == "nil" {
+		p.applicationClientID = nil
+	}
 
 	switch {
 	case strings.EqualFold(fedAuthWorkflow, ActiveDirectoryPassword):
