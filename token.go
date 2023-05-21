@@ -10,7 +10,7 @@ import (
 	"strconv"
 
 	"github.com/golang-sql/sqlexp"
-	"github.com/microsoft/go-mssqldb/msdsn"
+	"github.com/srgrn/go-mssqldb/msdsn"
 )
 
 //go:generate go run golang.org/x/tools/cmd/stringer -type token

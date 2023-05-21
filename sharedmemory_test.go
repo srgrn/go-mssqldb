@@ -6,8 +6,8 @@ package mssql
 import (
 	"testing"
 
-	"github.com/microsoft/go-mssqldb/msdsn"
-	_ "github.com/microsoft/go-mssqldb/sharedmemory"
+	"github.com/srgrn/go-mssqldb/msdsn"
+	_ "github.com/srgrn/go-mssqldb/sharedmemory"
 )
 
 func TestSharedMemoryProtocolInstalled(t *testing.T) {

@@ -1,7 +1,7 @@
 package integratedauth
 
 import (
-	"github.com/microsoft/go-mssqldb/msdsn"
+	"github.com/srgrn/go-mssqldb/msdsn"
 )
 
 // Provider returns an SSPI compatible authentication provider

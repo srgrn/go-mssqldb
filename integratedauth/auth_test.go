@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/microsoft/go-mssqldb/msdsn"
+	"github.com/srgrn/go-mssqldb/msdsn"
 )
 
 const providerName = "stub"

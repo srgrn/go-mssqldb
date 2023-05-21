@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/microsoft/go-mssqldb/msdsn"
+	"github.com/srgrn/go-mssqldb/msdsn"
 )
 
 func (n sharedMemoryDialer) ParseServer(server string, p *msdsn.Config) error {

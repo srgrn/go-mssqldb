@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/microsoft/go-mssqldb/internal/np"
-	"github.com/microsoft/go-mssqldb/msdsn"
+	"github.com/srgrn/go-mssqldb/internal/np"
+	"github.com/srgrn/go-mssqldb/msdsn"
 )
 
 type namedPipeData struct {

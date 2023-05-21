@@ -6,7 +6,7 @@ package mssql
 import (
 	"fmt"
 
-	"github.com/microsoft/go-mssqldb/msdsn"
+	"github.com/srgrn/go-mssqldb/msdsn"
 )
 
 func wrapConnErr(p *msdsn.Config, err error) error {

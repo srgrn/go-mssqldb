@@ -10,7 +10,7 @@ import (
 	"log"
 
 	"github.com/golang-sql/sqlexp"
-	mssql "github.com/microsoft/go-mssqldb"
+	mssql "github.com/srgrn/go-mssqldb"
 )
 
 const (

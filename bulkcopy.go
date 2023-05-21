@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/microsoft/go-mssqldb/internal/decimal"
-	"github.com/microsoft/go-mssqldb/msdsn"
+	"github.com/srgrn/go-mssqldb/internal/decimal"
+	"github.com/srgrn/go-mssqldb/msdsn"
 )
 
 type Bulk struct {

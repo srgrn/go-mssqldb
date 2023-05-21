@@ -9,7 +9,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/microsoft/go-mssqldb/msdsn"
+	"github.com/srgrn/go-mssqldb/msdsn"
 )
 
 // TestConnectError tests wrapped errors from connection establishing. It uses

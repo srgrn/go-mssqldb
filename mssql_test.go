@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/microsoft/go-mssqldb/msdsn"
+	"github.com/srgrn/go-mssqldb/msdsn"
 )
 
 func TestBadOpen(t *testing.T) {

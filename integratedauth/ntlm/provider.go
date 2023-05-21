@@ -1,7 +1,7 @@
 package ntlm
 
 import (
-	"github.com/microsoft/go-mssqldb/integratedauth"
+	"github.com/srgrn/go-mssqldb/integratedauth"
 )
 
 // AuthProvider handles NTLM SSPI Windows Authentication
